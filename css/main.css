@@ -1,36 +1,47 @@
-
 html {
   font-family: "Noto Serif", serif;
 }
 
-.banner {
+header,
+footer {
   background-color: #70ad55;
   color: #fff;
 }
 
-fieldset {
+.btn {
+  background-color: #6e8c62;
+  color: #fff;
   border: none;
 }
 
 input,
-select,
 textarea,
-input[type="radio"] + label::before,
-input[type="checkbox"] + label::before {
-  border-color: #6e8c62;
+select,
+[type="radio"] + label::before,
+[type="checkbox"] + label::before {
+  border: 2px solid #6e8c62;
 }
 
-.btn {
-  color: #fff;
-  background-color: #6e8c62;
-  border: none;
+.green {
+  color: #70ad55;
+}
+
+.textbox {
+  height: 10em;
+}
+
+fieldset {
+  border-top: none;
 }
 
 hr {
-  border-color: #70ad55;
+  border-color: rgba(112, 173, 85, .3);
 }
 
-.footer {
-  background-color: #70ad55;
-  color: #fff;
+.left-box {
+  padding-right: .5em;
+}
+
+.right-box {
+  padding-left: .5em;
 }
