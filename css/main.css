@@ -27,14 +27,6 @@ input, textarea, select {
   border-color: #6e8c62;
 }
 
-input,
-textarea,
-select,
-[type="radio"] + label::before,
-[type="checkbox"] + label::before {
-  border: 2px solid #6e8c62;
-}
-
 .copyright {
   background-color: #70ad55;
   color: #fff;
@@ -56,12 +48,18 @@ hr {
   border-color: rgba(112, 173, 85, .3);
 }
 
-.left-box {
-  padding-right: .5em;
+input[type="checkbox"] + label::before {
+  border-color: #6e8c62;
 }
 
-.right-box {
-  padding-left: .5em;
+input[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+  color: #fff;
 }
 
 @media only screen and (min-width: 38em) {
