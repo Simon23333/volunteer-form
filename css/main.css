@@ -3,10 +3,16 @@ html {
   background-color: #fff;
 }
 
-header,
-footer {
+header {
   background-color: #70ad55;
   color: #fff;
+}
+
+.first {
+  border: 1px solid #70ad55;
+  border-top: none;
+  border-right: none;
+  border-left: none;
 }
 
 .btn {
